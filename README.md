@@ -41,8 +41,7 @@
 - pull-to-refresh functionality
 - loading and error states
 - search functionality by name
-## Current Issue
-- After opening the app if there is no internet connection it shows no user found shows and unable to use pull to refresh function. It needs to reopen the app.
+
 ## Screen Shots of the Application
  <img src="assets/screen_shots/1.png" alt="Login Image" width="150">  <img src="assets/screen_shots/2.png" alt="Login Image" width="150">  <img src="assets/screen_shots/3.png" alt="Login Image" width="150"> 
  <img src="assets/screen_shots/4.png" alt="Login Image" width="150">  
