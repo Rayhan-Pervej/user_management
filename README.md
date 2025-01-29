@@ -1,4 +1,4 @@
-# user_management
+# User Managament
 
 ## Setup instruction
 - Install Flutter (latest version)
