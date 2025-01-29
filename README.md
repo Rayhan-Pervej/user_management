@@ -44,4 +44,3 @@
 
 ## Screen Record of the Application
 
-<video src='assets\screen_record\screen_record.mp4' width=180/>
