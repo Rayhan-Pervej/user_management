@@ -1,6 +1,6 @@
-## user_management
+# user_management
 
-# Setup instruction
+## Setup instruction
 - Install Flutter (latest version)
 - Install Dart SDK ( Java 21, Gradle 8.5) 
 - Set up an Android Emulator or connect a physical device
@@ -18,7 +18,7 @@
   flutter run
   ```
 
-# Dependencies list
+## Dependencies list
  ```
   # http
   http: ^1.3.0
@@ -36,13 +36,13 @@
   # utils
   flutter_svg: ^2.0.6
  ```
-# Features implemented
+## Features implemented
 - scrollable list of users
 - pull-to-refresh functionality
 - loading and error states
 - search functionality by name
 
-# Screen Record of the Application
+## Screen Record of the Application
 
 <video width="600" height="auto" controls>
   <source src="assets/screen_record/screen_record.mp4" type="video/mp4">
