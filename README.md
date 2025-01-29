@@ -45,5 +45,5 @@
 ## Screen Record of the Application
 
 <video width="auto" height="600" controls>
-  <source src="assets/screen_record/screen_record.mp4" type="video/mp4">
+  <source src="assets\screen_record\screen_record.mp4" type="video/mp4">
 </video>
