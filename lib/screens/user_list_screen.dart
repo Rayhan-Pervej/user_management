@@ -6,6 +6,7 @@ import 'package:user_management/theme/text.dart';
 import 'package:user_management/userData/user_list.dart';
 
 import 'user_details_screen.dart';
+
 class UserListScreen extends StatelessWidget {
   UserListScreen({super.key});
 
@@ -29,6 +30,10 @@ class UserListScreen extends StatelessWidget {
                 hintText: 'Search users...',
                 prefixIcon: const Icon(Icons.search),
                 border: OutlineInputBorder(
+                  borderRadius: BorderRadius.circular(10),
+                ),
+                focusedBorder: OutlineInputBorder(
+                  borderSide: const BorderSide(color: MyColor.primary),
                   borderRadius: BorderRadius.circular(10),
                 ),
               ),
