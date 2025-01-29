@@ -4,7 +4,6 @@ import 'package:user_management/component/user_card.dart';
 import 'package:user_management/theme/color.dart';
 import 'package:user_management/theme/text.dart';
 import 'package:user_management/userData/user_list.dart';
-
 import 'user_details_screen.dart';
 
 class UserListScreen extends StatelessWidget {
@@ -46,10 +45,16 @@ class UserListScreen extends StatelessWidget {
                 if (userList.isLoading.value) {
                   return const Center(child: CircularProgressIndicator());
                 } else if (userList.filteredUserList.isEmpty) {
-                  return Center(
-                    child: Text(
-                      "No users found",
-                      style: TextDesign().bodyText,
+                  return SingleChildScrollView(
+                    physics: const AlwaysScrollableScrollPhysics(),
+                    child: SizedBox(
+                      height: Get.height - 200,
+                      child: Center(
+                        child: Text(
+                          "No users found",
+                          style: TextDesign().bodyText,
+                        ),
+                      ),
                     ),
                   );
                 } else {
