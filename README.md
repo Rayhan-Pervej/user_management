@@ -43,5 +43,5 @@
 - search functionality by name
 
 ## Screen Shots of the Application
-| <img src="assets/screen_shots/1.png" alt="Login Image" width="150"> | <img src="assets/screen_shots/2.png" alt="Login Image" width="150"> | <img src="assets/screen_shots/3.png" alt="Login Image" width="150"> |
-| <img src="assets/screen_shots/4.png" alt="Login Image" width="150"> | 
+ <img src="assets/screen_shots/1.png" alt="Login Image" width="150">  <img src="assets/screen_shots/2.png" alt="Login Image" width="150">  <img src="assets/screen_shots/3.png" alt="Login Image" width="150"> 
+ <img src="assets/screen_shots/4.png" alt="Login Image" width="150">  
